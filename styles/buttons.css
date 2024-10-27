@@ -1,0 +1,67 @@
+<style>
+.susbscribe-button{
+    background-color: rgb(237, 10, 10);
+    color:white;
+    border-radius: 2px;
+    border-color: red;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 8px;
+    transition: opacity 0.15,
+    opacity 0.15; 
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;   
+    margin-left: 20px ;
+    margin-right: 20px;
+    vertical-align: top;
+    font-size: 15px;
+}
+.susbscribe-button:hover{
+    opacity: 0.7;
+}
+.susbscribe-button:active{
+    opacity: 0.15;
+}
+.join-button{
+    background-color: white;
+    color:blue ;
+    border-color: rgb(79, 150, 179);
+    border-width: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s,
+     color 0.15;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size:15px;
+    margin-right: 5px;
+}
+.join-button:hover{
+    background-color: blue;
+    color:white;
+}
+.join-button:active{
+    opacity: 0.7;
+}
+.tweet-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 70px;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;  
+    transition: box-shadow 0.15;
+    vertical-align:top;
+}       
+.tweet-button:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0 ,0.15 );
+}
+</style>
